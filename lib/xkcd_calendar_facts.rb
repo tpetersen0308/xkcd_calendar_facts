@@ -1,5 +1,6 @@
 require "xkcd_calendar_facts/version"
+require_relative '../config/environment.rb'
 
-module XkcdCalendarFacts
+module XKCDCalendarFacts
   # Your code goes here...
 end

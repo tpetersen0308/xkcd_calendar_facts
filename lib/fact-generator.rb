@@ -1,4 +1,4 @@
-class FactGenerator
+class XKCDCalendarFacts::FactGenerator
   attr_accessor @fact
   
   def initialize

@@ -2,4 +2,4 @@
 
 require_relative '../config/environment.rb'
 
-CLI.call
+XKCDCalendarFacts::CLI.call

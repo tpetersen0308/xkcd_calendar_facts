@@ -1,4 +1,4 @@
-class CLI
+class XKCDCalendarFacts::CLI
   
   def call
     display_menu

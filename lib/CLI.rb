@@ -2,6 +2,13 @@ class CLI
   
   def call
     display_menu
+    input = gets
+    case input
+    when '\n'
+      FactGenerator.print_fact
+    else
+      puts 'Hope you learned something! Goodbye!'
+    end
   end
   
   def display_menu
@@ -10,6 +17,7 @@ class CLI
       Hit <ENTER> to learn an interesting calendar fact!
       <press any other key to exit>
     DOC
+    puts menu
   end
   
 end

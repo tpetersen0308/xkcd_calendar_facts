@@ -1,4 +1,4 @@
-facts = 
+FACTS = 
 [
   'Did you know that ',
 [  

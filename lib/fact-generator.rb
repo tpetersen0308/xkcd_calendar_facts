@@ -5,4 +5,5 @@ class FactGenerator
     @fact = String.new
   end
   
+  
 end

@@ -1,5 +1,5 @@
 #!/usr/bin/env ruby
-
+require 'xkcd_calendar_facts'
 require_relative '../config/environment.rb'
 
 XKCDCalendarFacts::CLI.call

@@ -33,7 +33,7 @@ FACTS =
   'scientists are really worried.',
   ['it was even more extreme during the ', ['Bronze Age.', 'Ice Age.', 'Cretaceous.', '1990\'s']],
   ['there\'s a proposal to fix it, but it ', ['will never happen.', 'actually makes things worse.', 'is stalled in Congress.', 'might be unconstitutional.']],
-  'is getting worse and no one knows why.'
+  'it is getting worse and no one knows why.'
 ]  
   
 ]

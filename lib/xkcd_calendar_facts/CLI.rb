@@ -1,23 +1,27 @@
 class CLI
-  
+
   def self.call
-    display_menu
+    puts "--XKCD CALENDAR FACTS---"
+    self.start
+  end
+  
+  def self.start
+    puts "Press <ENTER> to learn an interesting calendar fact!"
+    puts "Any other key to exit."
+    
     input = gets
+    
     case input
     when "\n"
       FactGenerator.new.print_fact(FACTS)
+      puts ""
+      puts "Press <ENTER> to learn another interesting calendar fact!"
+      puts "Any other key to exit."
+      puts ""
     else
-      puts 'Hope you learned something! Goodbye!'
+      puts "Thank you for stopping by :) we hope you learned something."
+      puts "Visit xkcd.com for more!"
     end
-  end
-  
-  def self.display_menu
-    menu = <<-DOC
-      Welcome to XKCD Calendar Facts!
-      Hit <ENTER> to learn an interesting calendar fact!
-      <press any other key to exit>
-    DOC
-    puts menu
   end
   
 end

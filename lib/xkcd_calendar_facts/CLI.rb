@@ -4,8 +4,8 @@ class CLI
     display_menu
     input = gets
     case input
-    when '\n'
-      FactGenerator.print_fact
+    when "\n"
+      FactGenerator.new.print_fact(FACTS)
     else
       puts 'Hope you learned something! Goodbye!'
     end

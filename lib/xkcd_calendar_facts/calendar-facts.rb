@@ -15,7 +15,7 @@ FACTS =
 
 [
   ['happens ', ['earlier ', 'later ', 'at the wrong time '], 'every year '],
-  ['drifts out of sync with the ', ['sun ', 'moon ', 'zodiac ', 'atomic clock in Colorado ', [['Gregorian ', 'Mayan ', 'Lunar ', 'iPhone '], 'calendar ']]],
+  ['drifts out of sync with the ', ['sun ', 'moon ', 'Zodiac ', 'atomic clock in Colorado ', [['Gregorian ', 'Mayan ', 'Lunar ', 'iPhone '], 'calendar ']]],
   ['might ', ['not happen ', 'happen twice '], 'this year ']
 ],
   'because of ',

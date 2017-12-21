@@ -11,6 +11,10 @@ class CLI
     
     input = gets
     
+    self.menu
+  end
+  
+  def self.menu(input)
     case input
     when "\n"
       FactGenerator.new.print_fact(FACTS)

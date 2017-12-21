@@ -1,4 +1,7 @@
 #!/usr/bin/env ruby
-require_relative '../lib/xkcd_calendar_facts.rb'
+#require 'xkcd_calendar_facts'
+#require_relative '../lib/xkcd_calendar_facts.rb'
+require_relative '../config/environment.rb'
+
 
 XKCDCalendarFacts::CLI.call

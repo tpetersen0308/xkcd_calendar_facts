@@ -5,7 +5,7 @@ class XKCDCalendarFacts::CLI
     input = gets
     case input
     when '\n'
-      FactGenerator.print_fact
+      XKCDCalendarFacts::FactGenerator.print_fact
     else
       puts 'Hope you learned something! Goodbye!'
     end

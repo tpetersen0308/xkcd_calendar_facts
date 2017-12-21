@@ -5,12 +5,12 @@ require "xkcd_calendar_facts/version"
 
 Gem::Specification.new do |spec|
   spec.name          = "xkcd_calendar_facts"
-  spec.version       = XkcdCalendarFacts::VERSION
+  spec.version       = XKCDCalendarFacts::VERSION
   spec.authors       = ["Travis Petersen"]
   spec.email         = ["travis.e.petersen@gmail.com"]
 
-  spec.summary       = %q{TODO: Write a short summary, because RubyGems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
+  spec.summary       = %q{XKCD Calendar Facts}
+  spec.description   = %q{This Ruby Gem generates random calendar facts from Randall Munroe\'s XKCD #1930 \'Calendar Facts\''}
   spec.homepage      = "TODO: Put your gem's website or public repo URL here."
   spec.license       = "MIT"
 

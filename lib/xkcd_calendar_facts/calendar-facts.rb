@@ -34,6 +34,8 @@ FACTS =
   ['it was even more extreme during the ', ['Bronze Age.', 'Ice Age.', 'Cretaceous.', '1990\'s']],
   ['there\'s a proposal to fix it, but it ', ['will never happen.', 'actually makes things worse.', 'is stalled in Congress.', 'might be unconstitutional.']],
   'it is getting worse and no one knows why.'
-]  
-  
+],
+  "\nWhile it may seem like trivia, it ",
+  ['causes huge headaches for software developers.', 'is taken advantage of by high-speed traders.', 'triggered the 2003 Northeast Blackout.',
+   'has to be corrected for by GPS satellites.', 'is now recognized as a major cause of World War I.']
 ]

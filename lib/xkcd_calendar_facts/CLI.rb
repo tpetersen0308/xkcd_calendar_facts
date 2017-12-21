@@ -1,11 +1,11 @@
-class XKCDCalendarFacts::CLI
+class CLI
   
   def call
     display_menu
     input = gets
     case input
     when '\n'
-      XKCDCalendarFacts::FactGenerator.print_fact
+      FactGenerator.print_fact
     else
       puts 'Hope you learned something! Goodbye!'
     end

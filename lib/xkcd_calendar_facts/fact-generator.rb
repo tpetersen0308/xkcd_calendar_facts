@@ -1,5 +1,5 @@
-class XKCDCalendarFacts::FactGenerator
-  attr_accessor @fact
+class FactGenerator
+  attr_accessor :fact
   
   def initialize
     @fact = String.new

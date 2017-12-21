@@ -5,13 +5,13 @@ class FactGenerator
     @fact = String.new
   end
   
-  def random_path(arr)
+  def generate_fact(arr)
     arr.each do |el|
       if el.class == String
         @fact += el
       elsif el.flatten.length != el.length
         unknown = el.sample
-        random_path(unknown) if unknown.class == Array
+        generate_fact(unknown) if unknown.class == Array
         @fact += unknown if unknown.class == String
       else
         @fact += el.sample
@@ -19,7 +19,8 @@ class FactGenerator
     end
   end
   
-  def print_random_path
-    puts @fact
+  def print_fact(arr)
+    self.generate_fact(arr)
+    puts self.fact
   end
 end

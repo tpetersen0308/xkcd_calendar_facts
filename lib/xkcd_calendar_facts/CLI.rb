@@ -1,13 +1,15 @@
 class CLI
 
   def self.call
-    puts "--XKCD CALENDAR FACTS---"
+    puts ""
+    puts "------------------XKCD CALENDAR FACTS-------------------"
     self.start
   end
   
   def self.start
-    puts "Press <ENTER> to learn an interesting calendar fact!"
-    puts "Any other key to exit."
+    puts "--------------------------------------------------------"
+    puts "--Press <ENTER> to learn an interesting calendar fact!--"
+    puts "--Enter anything else to exit..."
     
     input = gets
     
@@ -19,14 +21,15 @@ class CLI
     when "\n"
       FactGenerator.new.print_fact(FACTS)
       puts ""
-      puts "Press <ENTER> to learn another interesting calendar fact!"
-      puts "Any other key to exit."
+      puts "--Press <ENTER> to learn another interesting calendar fact!"
+      puts "--Enter anything else to exit..."
       puts ""
       input = gets
       self.menu(input)
     else
-      puts "Thank you for stopping by :) we hope you learned something."
-      puts "Visit xkcd.com for more!"
+      puts "Wow, we sure just learned a lot!"
+      puts "Visit xkcd.com for more :)"
+      puts "Goodbye!"
     end
   end
   

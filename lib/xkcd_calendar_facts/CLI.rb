@@ -1,6 +1,6 @@
 class CLI
   
-  def call
+  def self.call
     display_menu
     input = gets
     case input
@@ -11,7 +11,7 @@ class CLI
     end
   end
   
-  def display_menu
+  def self.display_menu
     menu = <<-DOC
       Welcome to XKCD Calendar Facts!
       Hit <ENTER> to learn an interesting calendar fact!

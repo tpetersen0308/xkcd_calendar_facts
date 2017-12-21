@@ -22,10 +22,13 @@ class CLI
       puts "Press <ENTER> to learn another interesting calendar fact!"
       puts "Any other key to exit."
       puts ""
+      input = gets
+      self.menu(input)
     else
       puts "Thank you for stopping by :) we hope you learned something."
       puts "Visit xkcd.com for more!"
     end
   end
+  
   
 end

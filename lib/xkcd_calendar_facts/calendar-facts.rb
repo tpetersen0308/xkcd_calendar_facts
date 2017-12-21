@@ -26,7 +26,7 @@ FACTS =
   'magnetic field reversal',
   ['an arbitrary decision by ', ['Benjamin Franklin', 'Isaac Newton', 'FDR']],
 ],
-  '? Apparently ',
+  '? Apparently, ',
 [
   'it causes a predictable increase in car accidents.',
   'that\'s why we have leap seconds.',

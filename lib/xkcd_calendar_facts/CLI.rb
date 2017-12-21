@@ -11,7 +11,7 @@ class CLI
     
     input = gets
     
-    self.menu
+    self.menu(input)
   end
   
   def self.menu(input)

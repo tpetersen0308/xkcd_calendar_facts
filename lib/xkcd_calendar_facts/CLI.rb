@@ -27,8 +27,7 @@ class CLI
       input = gets
       self.menu(input)
     else
-      puts "--Wow, we sure just learned a lot!"
-      puts "--Visit xkcd.com for more :)"
+      puts "--Visit xkcd.com for more!"
       puts "--Goodbye!"
     end
   end
